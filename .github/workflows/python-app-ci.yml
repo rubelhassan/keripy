@@ -61,8 +61,6 @@ jobs:
           pytest --cov=./ --cov-report=xml
       - name: Upload
         uses: codecov/codecov-action@v3
-        with:
-          token: 5eb1c60e-8b43-45f1-a003-357b240061cd
 
   scripts:
     runs-on: ubuntu-latest
