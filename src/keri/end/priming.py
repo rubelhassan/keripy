@@ -25,7 +25,7 @@ def prime(name="main"):
     """
 
 
-
+# add a comment
 
 def parseArgs(version=keri.__version__):
     d = "Runs KERI direct mode demo controller.\n"
